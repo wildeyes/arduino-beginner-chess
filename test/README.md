@@ -1,0 +1,4 @@
+ - every 2 seconds: change color, turn of led, until all down, then light all up
+ - 4 modes: led up 4,3,2,1
+ - one led always up, both colors
+ - every 2 seconds, send HIGH to either 1 or 63 through mux
