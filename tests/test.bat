@@ -1,0 +1,1 @@
+g++ -Wall .\main.cpp -o build\test && build\test

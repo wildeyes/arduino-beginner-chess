@@ -1,0 +1,15 @@
+{
+  "folders": [
+    {
+      "path": ".",
+      "folder_exclude_patterns": ["archive"]
+    }
+  ],
+  "build_systems": [
+    {
+      "name": "Run tests",
+      "cmd": ["$project_path\\tests\\test.bat"],
+      "file_regex": "^\\.\\\\([a-zA-Z\\.]*):([0-9]*):([0-9]*):"
+    }
+  ]
+}
