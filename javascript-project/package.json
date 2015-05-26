@@ -1,0 +1,32 @@
+{
+  "name": "arduino-beginner-chess",
+  "version": "0.1.0",
+  "main": "index.coffee",
+  "scripts": {
+    "test": "mocha",
+    "dev": "nodemon index.coffee",
+    "start": "coffee index.coffee"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wildeyes/arduino-beginner-chess"
+  },
+  "keywords": [
+    "arduino",
+    "coffeescript",
+    "chess"
+  ],
+  "author": "xwildeyes",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wildeyes/arduino-beginner-chess/issues"
+  },
+  "homepage": "https://github.com/wildeyes/arduino-beginner-chess",
+  "devDependencies": {
+    "nodemon": "^1.3.7"
+  },
+  "dependencies": {
+    "chess.js": "^0.9.1",
+    "johnny-five": "^0.8.76"
+  }
+}
