@@ -27,6 +27,7 @@
   },
   "dependencies": {
     "chess.js": "^0.9.1",
-    "johnny-five": "^0.8.76"
+    "johnny-five": "^0.8.76",
+    "lodash": "^3.9.3"
   }
 }

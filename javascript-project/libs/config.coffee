@@ -1,0 +1,3 @@
+module.exports = {
+	board: null
+}
